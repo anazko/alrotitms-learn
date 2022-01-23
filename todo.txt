@@ -1,0 +1,11 @@
+Решить:
+
+binary_search.js
+ATM-hard.js
+Queue.js
+
+
+
+Найти более эффективное решение:
+
+twoSum.js
