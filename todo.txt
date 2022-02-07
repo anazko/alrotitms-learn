@@ -1,8 +1,9 @@
 Решить:
 
-binary_search.js
-ATM-hard.js
-Queue.js
+maze
+binary_search
+ATM-hard
+Queue
 
 
 
