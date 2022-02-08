@@ -1,13 +1,13 @@
 # Решение задач с leetcode и codewars
 
-## Решить:
+### Решить:
 
-maze
-binary_search
-ATM-hard
-Queue
+- maze
+- binary_search
+- ATM-hard
+- Queue
 
-## Найти более эффективное решение:
+### Найти более эффективное решение:
 
-twoSum.js
-258. Add Digits - решить без рекурсии
+- twoSum.js
+- 258. Add Digits - решить без рекурсии
