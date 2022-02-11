@@ -12,3 +12,4 @@
 
 - twoSum.js
 - 258: Add Digits - решить без рекурсии
+- 35: Search Insert Position - переписать
