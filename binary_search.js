@@ -1,30 +1,47 @@
-const git 
+// binary search or insert
 
-const search = (arr, n) => {
+
+
+
+var searchInsert = function(nums, target) {
  
   let start = 0
-  let end = arr.length - 1
+  let end = nums.length - 1
   let current = Math.floor((start + end) / 2)
 
-
-
-  while (arr[current] !== n) {
-    console.log(current)
-    if (arr[current] === n) return current
-    else if (arr[current] > n) {
+  while (nums[current] !== target) {
+    
+    if (nums[current] > target) {
       end = current
       current = Math.floor((start + end) / 2)
-    } 
-    else if (arr[current] < n) {
-      start = current;
+    }
+
+    if (nums[current] < target) {
+      start = current
       current = Math.floor((start + end) / 2)
     }
+
+    console.log("Start" , start)
+    console.log("End" , end)
+    console.log("Current" , current)
+
+    if (nums[current] === target) return current
+
+    if (end - start <= 1) {
+      if (target < nums[0]) return 0
+      if (target > nums[nums.length - 1]) return nums.length
+      return end
+    }
+
   }
 
   return current
- 
 }
 
+// const nums = [2,3,5,6,8,9,10,11]
+// const nums = [1,3,5,6]
+const nums = [1,3,5]
 
-
-search(arr, 9)
+// console.log(searchInsert(nums, 1))
+// console.log(searchInsert(nums, 2))
+console.log(searchInsert(nums, 1))
