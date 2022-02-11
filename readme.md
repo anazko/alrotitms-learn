@@ -7,6 +7,7 @@
 - ATM-hard
 - Queue
 - Merge Two Sorted Lists
+- implement-strstr
 
 ### Найти более эффективное решение:
 
