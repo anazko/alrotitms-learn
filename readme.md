@@ -3,7 +3,6 @@
 ### Решить:
 
 - maze
-- binary_search
 - ATM-hard
 - Queue
 - Merge Two Sorted Lists
